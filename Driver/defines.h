@@ -15,7 +15,7 @@ PCWSTR SADDY = {};
 
 #define print(fmt, ...) DbgPrintEx(0, 0, fmt, ##__VA_ARGS__)
 
-#include "D:\_old\files\reset_9\repos\SpuckwareDriver1\SpuckwareDriver1\skCrypter.h"
+#include "skCrypter.h"
 
 
 #include "stdint.h"

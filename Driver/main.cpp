@@ -20,7 +20,6 @@ void SpoofAddress(PVOID address, PVOID* save, PVOID target = 0) {
 	*(PVOID*)(address) = target; //overwrite
 	T spoof = *(T*)((ULONG64)address);
 	//print("\n[+] spoofed! -> 0x%llX (%d)", spoof, spoof);
-	code297(135, 991, 170, 785);
 }
 
 void HideThread() {
